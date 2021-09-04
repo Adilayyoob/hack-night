@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro: GitHub😎</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">INTRO: GitHub😎</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Bio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Followers&Following</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            
+            <div id="Home" class="main_area">
+                <p class="white_center">Welcome</p><br>
+                <p class="white_center">Enter Your GitHub Username</p><br>
+                <form name="form1" action="#">
+                    <div class="center"><input type="text" name="username" class="form-control"></div>
+                    <div class=" center_2"><input type="submit" class="btn btn-outline-light" onclick="start()"></div> 
+                </form>
+            </div>
+
+            <div id="Bio" class="main_area">
+                <div class="center_3"><img id="avatar" src="#" width="200" height="200"></div>
+                <p class="white_center" id="name">name</p><br>
+                <p class="white_center" id="description">description</p><br>
+                <p class="white_center" id="username">Username</p><br>
+                <p class="white_center" id="gitlink">Git link</p><br>
+                <p class="white_center" id="followers">followers</p><br>
+                <p class="white_center" id="following">folowing</p><br>
+                <p class="white_center" id="email">Email</p><br>
+                <p class="white_center" id="twitter">twitter</p><br>
+                <p class="white_center" id="address">address</p>
+            </div>
+
+
+            <div id="Followers&Following"  class="main_area">
+
+            </div>
+
+
+
+        </div>
+        
+          
+    <script src="script.js"></script>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>
