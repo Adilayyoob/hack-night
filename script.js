@@ -21,6 +21,8 @@ function enter(d) {
     document.getElementById("email").innerHTML = "Email ID : " + d.email;
     document.getElementById("twitter").innerHTML = "Twitter : " + d.twitter_username;
     document.getElementById("address").innerHTML = "Location : " + d.location;
+    document.getElementById("repos").innerHTML = "public repos : " + d.public_repos;
+
 }
 
 
