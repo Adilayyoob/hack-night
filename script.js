@@ -21,14 +21,6 @@ function enter(d) {
     document.getElementById("email").innerHTML = "Email ID : " + d.email;
     document.getElementById("twitter").innerHTML = "Twitter : " + d.twitter_username;
     document.getElementById("address").innerHTML = "Location : " + d.location;
-
-    var container = document.getElementById("Followers&Following");
-    for( var i=1;i <=9; i++)
-    {
-      var el = document.createElement("div");
-      el.className ="card";
-      el.id = "card" + i;
-      el.innerHTML = "ok";
-      container.append(el);
-    }
 }
+
+
